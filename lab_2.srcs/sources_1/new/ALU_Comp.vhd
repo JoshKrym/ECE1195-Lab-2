@@ -1,0 +1,61 @@
+---------------------------------------------------------------------------------
+-- Company: 
+-- Engineer: 
+-- 
+-- Create Date: 09/19/2024 11:19:23 AM
+-- Design Name: 
+-- Module Name: ALU_Comp - Behavioral
+-- Project Name: 
+-- Target Devices: 
+-- Tool Versions: 
+-- Description: 
+-- 
+-- Dependencies: 
+-- 
+-- Revision:
+-- Revision 0.01 - File Created
+-- Additional Comments:
+-- 
+----------------------------------------------------------------------------------
+
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+-- Uncomment the following library declaration if using
+-- arithmetic functions with Signed or Unsigned values
+--use IEEE.NUMERIC_STD.ALL;
+
+-- Uncomment the following library declaration if instantiating
+-- any Xilinx leaf cells in this code.
+--library UNISIM;
+--use UNISIM.VComponents.all;
+
+entity ALU_Comp is
+    port (
+            A_31       :   in   std_logic;
+            B_31       :   in   std_logic;
+            S_31       :   in   std_logic;
+            CO         :   in   std_logic;
+            ALUOp      :   in   std_logic_vector(1 downto 0);
+            R          :   out  std_logic_vector(31 downto 0)
+         );
+end ALU_Comp;
+
+architecture Behavioral of ALU_Comp is
+
+
+begin
+
+    R <= x"00000000" when (ALUOp(1)='0') and (ALUOp(0)='0') else
+         x"00000000" when (ALUOp(1)='0') and (ALUOp(0)='1') else
+         x"00000000" when (ALUOp(1)='1') and (ALUOp(0)='0') and (A_31='0') and (B_31='0') and (S_31='0') else
+         x"00000001" when (ALUOp(1)='1') and (ALUOp(0)='0') and (A_31='0') and (B_31='0') and (S_31='1') else
+         x"00000000" when (ALUOp(1)='1') and (ALUOp(0)='0') and (A_31='1') and (B_31='1') and (S_31='0') else
+         x"00000001" when (ALUOp(1)='1') and (ALUOp(0)='0') and (A_31='1') and (B_31='1') and (S_31='1') else
+         x"00000001" when (ALUOp(1)='1') and (ALUOp(0)='0') and (A_31='1') and (B_31='0') else
+         x"00000000" when (ALUOp(1)='1') and (ALUOp(0)='0') and (A_31='0') and (B_31='1') else
+         x"00000000" when (ALUOp(1)='1') and (ALUOp(0)='1') and (CO='1') else
+         x"00000001" when (ALUOp(1)='1') and (ALUOp(0)='1') and (CO='1');
+
+end Behavioral;

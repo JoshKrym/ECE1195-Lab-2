@@ -1,0 +1,165 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Logical.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical_tb'
+ERROR: [VRFC 10-1412] syntax error near 11111111 [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd:34]
+ERROR: [VRFC 10-1412] syntax error near 00000000 [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd:35]
+ERROR: [VRFC 10-1412] syntax error near ' [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd:36]
+ERROR: [VRFC 10-3782] unit 'sim' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd:8]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Logical.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Logical.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical_tb'
+ERROR: [VRFC 10-3214] character 'l' is not in element type 'std_ulogic' [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd:87]
+ERROR: [VRFC 10-3782] unit 'sim' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd:8]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Logical.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical_tb'
+ERROR: [VRFC 10-3214] character 'l' is not in element type 'std_ulogic' [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd:87]
+ERROR: [VRFC 10-3782] unit 'sim' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd:8]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Logical.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Logical_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Logical_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+ERROR: [VRFC 10-3553] near 'image' ; prefix should denote a scalar type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:42]
+ERROR: [VRFC 10-3553] near 'image' ; prefix should denote a scalar type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:46]
+ERROR: [VRFC 10-3553] near 'image' ; prefix should denote a scalar type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:50]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:9]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+ERROR: [VRFC 10-3553] near 'image' ; prefix should denote a scalar type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:42]
+ERROR: [VRFC 10-3553] near 'image' ; prefix should denote a scalar type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:46]
+ERROR: [VRFC 10-3553] near 'image' ; prefix should denote a scalar type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:50]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:9]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+ERROR: [VRFC 10-3553] near 'image' ; prefix should denote a scalar type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:42]
+ERROR: [VRFC 10-3553] near 'image' ; prefix should denote a scalar type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:46]
+ERROR: [VRFC 10-3553] near 'image' ; prefix should denote a scalar type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:50]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:9]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+ERROR: [VRFC 10-3167] cannot convert type 'unsigned' to type 'integer' [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:42]
+ERROR: [VRFC 10-3167] cannot convert type 'unsigned' to type 'integer' [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:46]
+ERROR: [VRFC 10-3167] cannot convert type 'unsigned' to type 'integer' [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:50]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:9]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+ERROR: [VRFC 10-2989] 'conv_integer' is not declared [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:42]
+ERROR: [VRFC 10-2989] 'conv_integer' is not declared [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:46]
+ERROR: [VRFC 10-2989] 'conv_integer' is not declared [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:50]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:9]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+ERROR: [VRFC 10-724] found '0' definitions of operator "=", cannot determine exact overloaded matching definition for "=" [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:46]
+ERROR: [VRFC 10-724] found '0' definitions of operator "=", cannot determine exact overloaded matching definition for "=" [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:52]
+ERROR: [VRFC 10-724] found '0' definitions of operator "=", cannot determine exact overloaded matching definition for "=" [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:58]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:9]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+ERROR: [VRFC 10-2989] 'utest' is not declared [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:42]
+ERROR: [VRFC 10-2989] 'utest' is not declared [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:47]
+ERROR: [VRFC 10-2989] 'utest' is not declared [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:52]
+ERROR: [VRFC 10-3782] unit 'sim' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:9]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+ERROR: [VRFC 10-3763] type error near 'test' ; expected type 'unresolved_unsigned' [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:42]
+ERROR: [VRFC 10-3340] formal 'arg' has no actual or default value [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:42]
+ERROR: [VRFC 10-3464] indexed name prefix type 'integer' is not an array type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:42]
+ERROR: [VRFC 10-3763] type error near 'test' ; expected type 'unresolved_unsigned' [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:47]
+ERROR: [VRFC 10-3340] formal 'arg' has no actual or default value [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:47]
+ERROR: [VRFC 10-3464] indexed name prefix type 'integer' is not an array type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:47]
+ERROR: [VRFC 10-3763] type error near 'test' ; expected type 'unresolved_unsigned' [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:52]
+ERROR: [VRFC 10-3340] formal 'arg' has no actual or default value [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:52]
+ERROR: [VRFC 10-3464] indexed name prefix type 'integer' is not an array type [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:52]
+ERROR: [VRFC 10-3782] unit 'sim' ignored due to previous errors [/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd:9]
+INFO: [VRFC 10-3070] VHDL file '/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd' ignored due to errors
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Shift.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Shift_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Shift_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sources_1/new/ALU_Comp.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Comp'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Comp_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Comp_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Comp_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Comp_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Comp_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Comp_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Comp_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Comp_tb'
+INFO: [VRFC 10-163] Analyzing VHDL file "/home/josh/projects/ece1195/lab_2/lab_2.srcs/sim_1/new/ALU_Comp_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'ALU_Comp_tb'
