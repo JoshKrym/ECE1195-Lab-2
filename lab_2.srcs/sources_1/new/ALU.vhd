@@ -70,7 +70,7 @@ architecture Behavioral of ALU is
             R          :   out  std_logic_vector(31 downto 0)
         );
     end component;
-    component ALU_Arith is
+    component Arith_Unit is
         GENERIC (
             n       : positive := 32);
         PORT( 
@@ -115,7 +115,7 @@ begin
             ALUOp => ALUOp(1 downto 0),
             R => CompR
                 );
-    AKUA: ALU_Arith
+    AKUA: Arith_Unit
         generic map(
             n => 32
                    )

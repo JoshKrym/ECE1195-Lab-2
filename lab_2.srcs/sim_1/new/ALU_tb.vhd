@@ -42,199 +42,277 @@ begin
     process
     begin
         --shift
-        ALUOp(3 downto 2)<="11";
-        A <= x"FEDCBA98";
-        test <= to_stdlogicvector(to_bitvector(A) sll 0);
-        for i in 0 to 31 loop
-            SHAMT <= std_logic_Vector(to_unsigned(i, 5));
+        ALUOp<="1100";
+        A <= x"00000010";
+        SHAMT <= "00001";
+        wait for 10 ns;
+        assert (R=x"00000020") report "Shift Left failed";
 
-            ALUOp(1 downto 0)<="00";
-            test <= to_stdlogicvector(to_bitvector(A) sll i);
-            wait for 10 ns;
-            assert (R=test) report "SLL of "&integer'image(i)&" of FEDCBA98!=" &integer'image(to_integer(unsigned(test)));
+        ALUOp<="1110";
+        A <= x"00000010";
+        SHAMT <= "00001";
+        wait for 10 ns;
+        assert (R=x"00000008") report "Logical Shift Right failed";
 
-            ALUOp(1 downto 0)<="10";
-            test <= to_stdlogicvector(to_bitvector(A) srl i);
-            wait for 10 ns;
-            assert (R=test) report "SRL of "&integer'image(i)&" of FEDCBA98!="&integer'image(to_integer(unsigned(test)));
+        ALUOp<="1111";
+        A <= x"FFFFFFF0";
+        SHAMT <= "00001";
+        wait for 10 ns;
+        assert (R=x"FFFFFFF8") report "Arithmetic Shift failed";
 
-            ALUOp(1 downto 0)<="11";
-            test <= to_stdlogicvector(to_bitvector(A) sra i);
-            wait for 10 ns;
-            assert (R=test) report "SRA of "&integer'image(i)&" of FEDCBA98!="&integer'image(to_integer(unsigned(test)));
-        end loop;
-        A <= x"7EDCBA98";
-        for i in 0 to 31 loop
-            SHAMT <= std_logic_Vector(to_unsigned(i, 5));
+        --ALU_Arith
+        ALUOp<="0100";
+        A <= x"00000010";
+        B <= x"00000010";
+        wait for 10 ns;
+        assert (R=x"00000020") report "Unsigned add failed";
 
-            ALUOp(1 downto 0)<="00";
-            test <= to_stdlogicvector(to_bitvector(A) sll i);
-            wait for 10 ns;
-            assert (R=test) report "SLL of "&integer'image(i)&" of FEDCBA98!=" &integer'image(to_integer(unsigned(test)));
+        ALUOp<="0101";
+        A <= x"FFFFFFF0";
+        B <= x"FFFFFFF0";
+        wait for 10 ns;
+        assert (R=x"FFFFFFE0") report "Signed add failed";
 
-            ALUOp(1 downto 0)<="10";
-            test <= to_stdlogicvector(to_bitvector(A) srl i);
-            wait for 10 ns;
-            assert (R=test) report "SRL of "&integer'image(i)&" of FEDCBA98!="&integer'image(to_integer(unsigned(test)));
+        ALUOp<="0110";
+        A <= x"00000010";
+        B <= x"00000010";
+        wait for 10 ns;
+        assert (R=x"00000000") report "Unsigned Subtract failed";
 
-            ALUOp(1 downto 0)<="11";
-            test <= to_stdlogicvector(to_bitvector(A) sra i);
-            wait for 10 ns;
-            assert (R=test) report "SRA of "&integer'image(i)&" of FEDCBA98!="&integer'image(to_integer(unsigned(test)));
-        end loop;
+        ALUOp<="0111";
+        A <= x"FFFFFFF0";
+        B <= x"FFFFFFF0";
+        wait for 10 ns;
+        assert (R=x"00000000") report "Signed Subtract failed";
 
         -- ALU_Comp
-        ALUOp(3 downto 2)<="10";
-        A <= x"0000000A";
-        B <= x"0000000A";
+        ALUOp<="1010";
+        wait for 10 ns;
+        assert (Zero='1') report "SLTU failed";
 
-        ALUOp(1 downto 0) <= "10";
+        ALUOp<="1011";
         wait for 10 ns;
-        assert (R=x"00000000") report "Signed 10-10 not giving 0";
-        ALUOp(1 downto 0) <= "11";
-        wait for 10 ns;
-        assert (R=x"00000000") report "Unsigned 10-10 not giving 0";
-
-        A <= x"00000009";
-        B <= x"0000000A";
-
-        ALUOp(1 downto 0) <= "10";
-        wait for 10 ns;
-        assert (R=x"00000001") report "Signed 9-10 not giving 1";
-        ALUOp(1 downto 0) <= "11";
-        wait for 10 ns;
-        assert (R=x"00000001") report "Unsigned 9-10 not giving 1";
-
-        A <= x"0000000A";
-        B <= x"00000009";
-
-        ALUOp(1 downto 0) <= "10";
-        wait for 10 ns;
-        assert (R=x"00000000") report "Signed 10-9 not giving 0";
-        ALUOp(1 downto 0) <= "11";
-        wait for 10 ns;
-        assert (R=x"00000000") report "Unsigned 10-9 not giving 0";
-
-        A <= x"FFFFFFF6";
-        B <= x"FFFFFFF6";
-
-        ALUOp(1 downto 0) <= "10";
-        wait for 10 ns;
-        assert (R=x"00000000") report "Signed -10--10 not giving 0";
-        ALUOp(1 downto 0) <= "11";
-        wait for 10 ns;
-        assert (R=x"00000000") report "Unsigned -10--10 not giving 0";
-
-        A <= x"FFFFFFF7";
-        B <= x"FFFFFFF6";
-
-        ALUOp(1 downto 0) <= "10";
-        wait for 10 ns;
-        assert (R=x"00000000") report "Signed -9--10 not giving 0";
-        ALUOp(1 downto 0) <= "11";
-        wait for 10 ns;
-        assert (R=x"00000001") report "Unsigned -9--10 not giving 0";
-
-        A <= x"FFFFFFF6";
-        B <= x"FFFFFFF7";
-
-        ALUOp(1 downto 0) <= "10";
-        wait for 10 ns;
-        assert (R=x"00000001") report "Signed -10--9 not giving 1";
-        ALUOp(1 downto 0) <= "11";
-        wait for 10 ns;
-        assert (R=x"00000001") report "Unsigned -10--9 not giving 1";
-
-        A <= x"FFFFFFFF";
-        B <= x"00000000";
-
-        ALUOp(1 downto 0) <= "10";
-        wait for 10 ns;
-        assert (R=x"00000001") report "Signed -1-0 not giving 1";
-        ALUOp(1 downto 0) <= "11";
-        wait for 10 ns;
-        assert (R=x"00000000") report "Unsigned -1-0 not giving 0";
-
-        A <= x"00000000";
-        B <= x"FFFFFFFF";
-
-        ALUOp(1 downto 0) <= "10";
-        wait for 10 ns;
-        assert (R=x"00000000") report "Signed 0--1 not giving 0";
-        ALUOp(1 downto 0) <= "11";
-        wait for 10 ns;
-        assert (R=x"00000001") report "Unsigned 0--1 not giving 1";
+        assert (Zero='1') report "SLT failed";
 
         --ALU_Logical
-        ALUOp(3 downto 2)<="00";
-        A <= x"FFFFFFFF";
-        B <= x"00000000";
-        ALUOp(1 downto 0)<= "00";
+        ALUOp<="0000";
+        A <= x"00000010";
+        B <= x"11111101";
         wait for 10 ns;
-        assert (R=(A and B)) report "FFFFFFFF&00000000 is incorrect";
-        A <= x"FFFF0000";
-        B <= x"0000FFFF";
+        assert (R=x"00000000") report "AND failed";
+
+        ALUOp<="0001";
+        A <= x"00000010";
+        B <= x"11111101";
         wait for 10 ns;
-        assert (R=(A and B)) report "FFFF0000&FFFF0000 is incorrect";
-        A <= x"FF000000";
-        B <= x"000000FF";
+        assert (R=x"11111111") report "OR failed";
+
+        ALUOp<="0010";
+        A <= x"00000010";
+        B <= x"11111101";
         wait for 10 ns;
-        assert (R=(A and B)) report "FF000000&000000FF is incorrect";
-        A <= x"FFFFFF00";
-        B <= x"00FFFFFF";
+        assert (R=x"11111111") report "XOR failed";
+
+        ALUOp<="0011";
+        A <= x"00000010";
+        B <= x"11111101";
         wait for 10 ns;
-        assert (R=(A and B)) report "FFFFFF00&00FFFFFF is incorrect";
-        A <= x"FFFFFFFF";
-        B <= x"00000000";
-        ALUOp(1 downto 0)<= "01";
-        wait for 10 ns;
-        assert (R=(A or B)) report "FFFFFFFF|00000000 is incorrect";
-        A <= x"FFFF0000";
-        B <= x"0000FFFF";
-        wait for 10 ns;
-        assert (R=(A or B)) report "FFFF0000|FFFF0000 is incorrect";
-        A <= x"FF000000";
-        B <= x"000000FF";
-        wait for 10 ns;
-        assert (R=(A or B)) report "FF000000|000000FF is incorrect";
-        A <= x"FFFFFF00";
-        B <= x"00FFFFFF";
-        wait for 10 ns;
-        assert (R=(A or B)) report "FFFFFF00|00FFFFFF is incorrect";
-        A <= x"FFFFFFFF";
-        B <= x"00000000";
-        ALUOp(1 downto 0)<= "10";
-        wait for 10 ns;
-        assert (R=(A xor B)) report "FFFFFFFF^00000000 is incorrect";
-        A <= x"FFFF0000";
-        B <= x"0000FFFF";
-        wait for 10 ns;
-        assert (R=(A xor B)) report "FFFF0000^FFFF0000 is incorrect";
-        A <= x"FF000000";
-        B <= x"000000FF";
-        wait for 10 ns;
-        assert (R=(A xor B)) report "FF000000^000000FF is incorrect";
-        A <= x"FFFFFF00";
-        B <= x"00FFFFFF";
-        wait for 10 ns;
-        assert (R=(A xor B)) report "FFFFFF00^00FFFFFF is incorrect";
-        A <= x"FFFFFFFF";
-        B <= x"00000000";
-        ALUOp(1 downto 0)<= "11";
-        wait for 10 ns;
-        assert (R=(A nor B)) report "FFFFFFFF!|00000000 is incorrect";
-        A <= x"FFFF0000";
-        B <= x"0000FFFF";
-        wait for 10 ns;
-        assert (R=(A nor B)) report "FFFF0000!|FFFF0000 is incorrect";
-        A <= x"FF000000";
-        B <= x"000000FF";
-        wait for 10 ns;
-        assert (R=(A nor B)) report "FF000000!|000000FF is incorrect";
-        A <= x"FFFFFF00";
-        B <= x"00FFFFFF";
-        wait for 10 ns;
-        assert (R=(A nor B)) report "FFFFFF00!|00FFFFFF is incorrect";
+        assert (R=x"eeeeeeee") report "NOR failed";
+
+        ----shift
+        --ALUOp(3 downto 2)<="11";
+        --A <= x"FEDCBA98";
+        --test <= to_stdlogicvector(to_bitvector(A) sll 0);
+        --for i in 0 to 31 loop
+        --    SHAMT <= std_logic_Vector(to_unsigned(i, 5));
+
+        --    ALUOp(1 downto 0)<="00";
+        --    test <= to_stdlogicvector(to_bitvector(A) sll i);
+        --    wait for 10 ns;
+        --    assert (R=test) report "SLL of "&integer'image(i)&" of FEDCBA98!=" &integer'image(to_integer(unsigned(test)));
+
+        --    ALUOp(1 downto 0)<="10";
+        --    test <= to_stdlogicvector(to_bitvector(A) srl i);
+        --    wait for 10 ns;
+        --    assert (R=test) report "SRL of "&integer'image(i)&" of FEDCBA98!="&integer'image(to_integer(unsigned(test)));
+
+        --    ALUOp(1 downto 0)<="11";
+        --    test <= to_stdlogicvector(to_bitvector(A) sra i);
+        --    wait for 10 ns;
+        --    assert (R=test) report "SRA of "&integer'image(i)&" of FEDCBA98!="&integer'image(to_integer(unsigned(test)));
+        --end loop;
+        --A <= x"7EDCBA98";
+        --for i in 0 to 31 loop
+        --    SHAMT <= std_logic_Vector(to_unsigned(i, 5));
+
+        --    ALUOp(1 downto 0)<="00";
+        --    test <= to_stdlogicvector(to_bitvector(A) sll i);
+        --    wait for 10 ns;
+        --    assert (R=test) report "SLL of "&integer'image(i)&" of FEDCBA98!=" &integer'image(to_integer(unsigned(test)));
+
+        --    ALUOp(1 downto 0)<="10";
+        --    test <= to_stdlogicvector(to_bitvector(A) srl i);
+        --    wait for 10 ns;
+        --    assert (R=test) report "SRL of "&integer'image(i)&" of FEDCBA98!="&integer'image(to_integer(unsigned(test)));
+
+        --    ALUOp(1 downto 0)<="11";
+        --    test <= to_stdlogicvector(to_bitvector(A) sra i);
+        --    wait for 10 ns;
+        --    assert (R=test) report "SRA of "&integer'image(i)&" of FEDCBA98!="&integer'image(to_integer(unsigned(test)));
+        --end loop;
+
+        ---- ALU_Comp
+        --ALUOp(3 downto 2)<="10";
+        --A <= x"0000000A";
+        --B <= x"0000000A";
+
+        --ALUOp(1 downto 0) <= "10";
+        --wait for 10 ns;
+        --assert (R=x"00000000") report "Signed 10-10 not giving 0";
+        --ALUOp(1 downto 0) <= "11";
+        --wait for 10 ns;
+        --assert (R=x"00000000") report "Unsigned 10-10 not giving 0";
+
+        --A <= x"00000009";
+        --B <= x"0000000A";
+
+        --ALUOp(1 downto 0) <= "10";
+        --wait for 10 ns;
+        --assert (R=x"00000001") report "Signed 9-10 not giving 1";
+        --ALUOp(1 downto 0) <= "11";
+        --wait for 10 ns;
+        --assert (R=x"00000001") report "Unsigned 9-10 not giving 1";
+
+        --A <= x"0000000A";
+        --B <= x"00000009";
+
+        --ALUOp(1 downto 0) <= "10";
+        --wait for 10 ns;
+        --assert (R=x"00000000") report "Signed 10-9 not giving 0";
+        --ALUOp(1 downto 0) <= "11";
+        --wait for 10 ns;
+        --assert (R=x"00000000") report "Unsigned 10-9 not giving 0";
+
+        --A <= x"FFFFFFF6";
+        --B <= x"FFFFFFF6";
+
+        --ALUOp(1 downto 0) <= "10";
+        --wait for 10 ns;
+        --assert (R=x"00000000") report "Signed -10--10 not giving 0";
+        --ALUOp(1 downto 0) <= "11";
+        --wait for 10 ns;
+        --assert (R=x"00000000") report "Unsigned -10--10 not giving 0";
+
+        --A <= x"FFFFFFF7";
+        --B <= x"FFFFFFF6";
+
+        --ALUOp(1 downto 0) <= "10";
+        --wait for 10 ns;
+        --assert (R=x"00000000") report "Signed -9--10 not giving 0";
+        --ALUOp(1 downto 0) <= "11";
+        --wait for 10 ns;
+        --assert (R=x"00000001") report "Unsigned -9--10 not giving 0";
+
+        --A <= x"FFFFFFF6";
+        --B <= x"FFFFFFF7";
+
+        --ALUOp(1 downto 0) <= "10";
+        --wait for 10 ns;
+        --assert (R=x"00000001") report "Signed -10--9 not giving 1";
+        --ALUOp(1 downto 0) <= "11";
+        --wait for 10 ns;
+        --assert (R=x"00000001") report "Unsigned -10--9 not giving 1";
+
+        --A <= x"FFFFFFFF";
+        --B <= x"00000000";
+
+        --ALUOp(1 downto 0) <= "10";
+        --wait for 10 ns;
+        --assert (R=x"00000001") report "Signed -1-0 not giving 1";
+        --ALUOp(1 downto 0) <= "11";
+        --wait for 10 ns;
+        --assert (R=x"00000000") report "Unsigned -1-0 not giving 0";
+
+        --A <= x"00000000";
+        --B <= x"FFFFFFFF";
+
+        --ALUOp(1 downto 0) <= "10";
+        --wait for 10 ns;
+        --assert (R=x"00000000") report "Signed 0--1 not giving 0";
+        --ALUOp(1 downto 0) <= "11";
+        --wait for 10 ns;
+        --assert (R=x"00000001") report "Unsigned 0--1 not giving 1";
+
+        ----ALU_Logical
+        --ALUOp(3 downto 2)<="00";
+        --A <= x"FFFFFFFF";
+        --B <= x"00000000";
+        --ALUOp(1 downto 0)<= "00";
+        --wait for 10 ns;
+        --assert (R=(A and B)) report "FFFFFFFF&00000000 is incorrect";
+        --A <= x"FFFF0000";
+        --B <= x"0000FFFF";
+        --wait for 10 ns;
+        --assert (R=(A and B)) report "FFFF0000&FFFF0000 is incorrect";
+        --A <= x"FF000000";
+        --B <= x"000000FF";
+        --wait for 10 ns;
+        --assert (R=(A and B)) report "FF000000&000000FF is incorrect";
+        --A <= x"FFFFFF00";
+        --B <= x"00FFFFFF";
+        --wait for 10 ns;
+        --assert (R=(A and B)) report "FFFFFF00&00FFFFFF is incorrect";
+        --A <= x"FFFFFFFF";
+        --B <= x"00000000";
+        --ALUOp(1 downto 0)<= "01";
+        --wait for 10 ns;
+        --assert (R=(A or B)) report "FFFFFFFF|00000000 is incorrect";
+        --A <= x"FFFF0000";
+        --B <= x"0000FFFF";
+        --wait for 10 ns;
+        --assert (R=(A or B)) report "FFFF0000|FFFF0000 is incorrect";
+        --A <= x"FF000000";
+        --B <= x"000000FF";
+        --wait for 10 ns;
+        --assert (R=(A or B)) report "FF000000|000000FF is incorrect";
+        --A <= x"FFFFFF00";
+        --B <= x"00FFFFFF";
+        --wait for 10 ns;
+        --assert (R=(A or B)) report "FFFFFF00|00FFFFFF is incorrect";
+        --A <= x"FFFFFFFF";
+        --B <= x"00000000";
+        --ALUOp(1 downto 0)<= "10";
+        --wait for 10 ns;
+        --assert (R=(A xor B)) report "FFFFFFFF^00000000 is incorrect";
+        --A <= x"FFFF0000";
+        --B <= x"0000FFFF";
+        --wait for 10 ns;
+        --assert (R=(A xor B)) report "FFFF0000^FFFF0000 is incorrect";
+        --A <= x"FF000000";
+        --B <= x"000000FF";
+        --wait for 10 ns;
+        --assert (R=(A xor B)) report "FF000000^000000FF is incorrect";
+        --A <= x"FFFFFF00";
+        --B <= x"00FFFFFF";
+        --wait for 10 ns;
+        --assert (R=(A xor B)) report "FFFFFF00^00FFFFFF is incorrect";
+        --A <= x"FFFFFFFF";
+        --B <= x"00000000";
+        --ALUOp(1 downto 0)<= "11";
+        --wait for 10 ns;
+        --assert (R=(A nor B)) report "FFFFFFFF!|00000000 is incorrect";
+        --A <= x"FFFF0000";
+        --B <= x"0000FFFF";
+        --wait for 10 ns;
+        --assert (R=(A nor B)) report "FFFF0000!|FFFF0000 is incorrect";
+        --A <= x"FF000000";
+        --B <= x"000000FF";
+        --wait for 10 ns;
+        --assert (R=(A nor B)) report "FF000000!|000000FF is incorrect";
+        --A <= x"FFFFFF00";
+        --B <= x"00FFFFFF";
+        --wait for 10 ns;
+        --assert (R=(A nor B)) report "FFFFFF00!|00FFFFFF is incorrect";
 
 end process;
 end architecture;

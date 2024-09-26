@@ -1,0 +1,1360 @@
+03:26:01 **** Build of project Lab_2_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Finished building libraries
+
+**** Build of configuration Debug for project Lab_2 ****
+
+Nothing to build for project Lab_2
+03:26:49 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../Lab_2_bsp/ps7_cortexa9_0/lib/libxil.a(xil-crt0.o): In function `_start':
+/home/josh/projects/ece1195/lab_2/lab_2.sdk/Lab_2_bsp/ps7_cortexa9_0/libsrc/standalone_v6_8/src/xil-crt0.S:138: undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2.elf] Error 1
+03:49:47 **** Clean-only build of project Lab_2_bsp ****
+make -k clean 
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s clean 
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s clean 
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s clean 
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s clean 
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s clean 
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s clean 
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+03:49:47 **** Clean-only build of configuration Debug for project Lab_2 ****
+make clean 
+rm -rf ./src/Lab_2.o ./src/Lab_2.d Lab_2.elf.size  Lab_2.elf
+ 
+03:49:48 **** Build of project Lab_2_bsp ****
+make -k all 
+Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/emacps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_4/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_5/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/sdps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s include  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling coresightps_dcc
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling cpu_cortexa9
+Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling ddrps
+Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling devcfg
+Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling dmaps
+Running Make libs in ps7_cortexa9_0/libsrc/emacps_v3_8/src
+make -C ps7_cortexa9_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling emacps
+Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_4/src
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_5/src
+make -C ps7_cortexa9_0/libsrc/qspips_v3_5/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling qspips
+Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_10/src
+make -C ps7_cortexa9_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scugic
+Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scutimer
+Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling scuwdt
+Running Make libs in ps7_cortexa9_0/libsrc/sdps_v3_6/src
+make -C ps7_cortexa9_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling sdps
+Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_8/src
+make -C ps7_cortexa9_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling standalone
+In file included from sleep.c:53:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from usleep.c:56:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xtime_l.c:49:0:
+xtime_l.h:87:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_7/src
+make -C ps7_cortexa9_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling uartps
+Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_4/src
+make -C ps7_cortexa9_0/libsrc/usbps_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling usbps
+Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_3/src
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_3/src -s libs  "SHELL=/bin/sh" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra"
+Compiling xadcps
+Finished building libraries
+03:49:54 **** Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../Lab_2_bsp/ps7_cortexa9_0/lib/libxil.a(xil-crt0.o): In function `_start':
+/home/josh/projects/ece1195/lab_2/lab_2.sdk/Lab_2_bsp/ps7_cortexa9_0/libsrc/standalone_v6_8/src/xil-crt0.S:138: undefined reference to `main'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2.elf] Error 1
+03:50:28 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab_2.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab_2.elf  |tee "Lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  31784	   2184	  22632	  56600	   dd18	Lab_2.elf
+Finished building: Lab_2.elf.size
+ 
+03:51:41 **** Incremental Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+03:51:42 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+03:53:40 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+../src/Lab_2.c: In function 'main':
+../src/Lab_2.c:14:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1100";
+              ^
+../src/Lab_2.c:15:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:16:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:17:18: warning: comparison between pointer and integer
+         printf((R=="0x00000020") ? "" : "Shift Left failed");
+                  ^~
+../src/Lab_2.c:17:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:19:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1110";
+              ^
+../src/Lab_2.c:20:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:21:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:22:18: warning: comparison between pointer and integer
+         printf((R=="0x00000008") ? "" : "Logical Shift Right failed");
+                  ^~
+../src/Lab_2.c:22:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:24:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1111";
+              ^
+../src/Lab_2.c:25:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:26:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:27:18: warning: comparison between pointer and integer
+         printf((R=="0xFFFFFFF8") ? "" : "Arithmetic Shift failed");
+                  ^~
+../src/Lab_2.c:27:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:30:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0100";
+              ^
+../src/Lab_2.c:31:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:32:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:33:18: warning: comparison between pointer and integer
+         printf((R=="0x00000020") ? "" : "Unsigned add failed");
+                  ^~
+../src/Lab_2.c:33:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:35:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0101";
+              ^
+../src/Lab_2.c:36:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:37:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:38:18: warning: comparison between pointer and integer
+         printf((R=="0xFFFFFFE0") ? "" : "Signed add failed");
+                  ^~
+../src/Lab_2.c:38:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:40:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0110";
+              ^
+../src/Lab_2.c:41:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:42:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:43:18: warning: comparison between pointer and integer
+         printf((R=="0x00000000") ? "" : "Unsigned Subtract failed");
+                  ^~
+../src/Lab_2.c:43:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:45:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0111";
+              ^
+../src/Lab_2.c:46:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:47:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:48:18: warning: comparison between pointer and integer
+         printf((R=="0x00000000") ? "" : "Signed Subtract failed");
+                  ^~
+../src/Lab_2.c:48:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:50:12: error: 'ALU_Comp' undeclared (first use in this function); did you mean 'ALUOp'?
+         -- ALU_Comp
+            ^~~~~~~~
+            ALUOp
+../src/Lab_2.c:50:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/Lab_2.c:6:15: error: expected ';' before 'regmap'
+ #define ALUOp regmap[4]
+               ^
+../src/Lab_2.c:51:9: note: in expansion of macro 'ALUOp'
+         ALUOp="1010";
+         ^~~~~
+../src/Lab_2.c:52:9: warning: implicit declaration of function 'assert' [-Wimplicit-function-declaration]
+         assert (Zero='1') ? "" : "SLTU failed";
+         ^~~~~~
+../src/Lab_2.c:54:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1011";
+              ^
+../src/Lab_2.c:57:11: error: 'ALU_Logical' undeclared (first use in this function)
+         --ALU_Logical
+           ^~~~~~~~~~~
+../src/Lab_2.c:6:15: error: expected ';' before 'regmap'
+ #define ALUOp regmap[4]
+               ^
+../src/Lab_2.c:58:9: note: in expansion of macro 'ALUOp'
+         ALUOp="0000";
+         ^~~~~
+../src/Lab_2.c:59:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:60:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:61:18: warning: comparison between pointer and integer
+         printf((R=="0x00000000") ? "" : "AND failed");
+                  ^~
+../src/Lab_2.c:61:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:63:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0001";
+              ^
+../src/Lab_2.c:64:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:65:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:66:18: warning: comparison between pointer and integer
+         printf((R=="0x11111111") ? "" : "OR failed");
+                  ^~
+../src/Lab_2.c:66:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:68:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0010";
+              ^
+../src/Lab_2.c:69:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:70:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:71:18: warning: comparison between pointer and integer
+         printf((R=="0x11111111") ? "" : "XOR failed");
+                  ^~
+../src/Lab_2.c:71:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:73:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0011";
+              ^
+../src/Lab_2.c:74:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:75:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:76:18: warning: comparison between pointer and integer
+         printf((R=="0xeeeeeeee") ? "" : "NOR failed");
+                  ^~
+../src/Lab_2.c:76:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+make: *** [src/subdir.mk:23: src/Lab_2.o] Error 1
+03:54:00 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+../src/Lab_2.c: In function 'main':
+../src/Lab_2.c:14:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1100";
+              ^
+../src/Lab_2.c:15:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:16:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:17:18: warning: comparison between pointer and integer
+         printf((R=="0x00000020") ? "" : "Shift Left failed");
+                  ^~
+../src/Lab_2.c:17:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:19:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1110";
+              ^
+../src/Lab_2.c:20:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:21:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:22:18: warning: comparison between pointer and integer
+         printf((R=="0x00000008") ? "" : "Logical Shift Right failed");
+                  ^~
+../src/Lab_2.c:22:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:24:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1111";
+              ^
+../src/Lab_2.c:25:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:26:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:27:18: warning: comparison between pointer and integer
+         printf((R=="0xFFFFFFF8") ? "" : "Arithmetic Shift failed");
+                  ^~
+../src/Lab_2.c:27:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:30:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0100";
+              ^
+../src/Lab_2.c:31:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:32:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:33:18: warning: comparison between pointer and integer
+         printf((R=="0x00000020") ? "" : "Unsigned add failed");
+                  ^~
+../src/Lab_2.c:33:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:35:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0101";
+              ^
+../src/Lab_2.c:36:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:37:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:38:18: warning: comparison between pointer and integer
+         printf((R=="0xFFFFFFE0") ? "" : "Signed add failed");
+                  ^~
+../src/Lab_2.c:38:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:40:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0110";
+              ^
+../src/Lab_2.c:41:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:42:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:43:18: warning: comparison between pointer and integer
+         printf((R=="0x00000000") ? "" : "Unsigned Subtract failed");
+                  ^~
+../src/Lab_2.c:43:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:45:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0111";
+              ^
+../src/Lab_2.c:46:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:47:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:48:18: warning: comparison between pointer and integer
+         printf((R=="0x00000000") ? "" : "Signed Subtract failed");
+                  ^~
+../src/Lab_2.c:48:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:51:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1010";
+              ^
+../src/Lab_2.c:52:9: warning: implicit declaration of function 'assert' [-Wimplicit-function-declaration]
+         assert (Zero='1') ? "" : "SLTU failed";
+         ^~~~~~
+../src/Lab_2.c:54:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1011";
+              ^
+../src/Lab_2.c:58:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0000";
+              ^
+../src/Lab_2.c:59:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:60:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:61:18: warning: comparison between pointer and integer
+         printf((R=="0x00000000") ? "" : "AND failed");
+                  ^~
+../src/Lab_2.c:61:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:63:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0001";
+              ^
+../src/Lab_2.c:64:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:65:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:66:18: warning: comparison between pointer and integer
+         printf((R=="0x11111111") ? "" : "OR failed");
+                  ^~
+../src/Lab_2.c:66:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:68:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0010";
+              ^
+../src/Lab_2.c:69:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:70:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:71:18: warning: comparison between pointer and integer
+         printf((R=="0x11111111") ? "" : "XOR failed");
+                  ^~
+../src/Lab_2.c:71:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+../src/Lab_2.c:73:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0011";
+              ^
+../src/Lab_2.c:74:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:75:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:76:18: warning: comparison between pointer and integer
+         printf((R=="0xeeeeeeee") ? "" : "NOR failed");
+                  ^~
+../src/Lab_2.c:76:18: warning: comparison with string literal results in unspecified behavior [-Waddress]
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/Lab_2.o: In function `main':
+/home/josh/projects/ece1195/lab_2/lab_2.sdk/Lab_2/Debug/../src/Lab_2.c:52: undefined reference to `assert'
+/home/josh/projects/ece1195/lab_2/lab_2.sdk/Lab_2/Debug/../src/Lab_2.c:55: undefined reference to `assert'
+collect2: error: ld returned 1 exit status
+make: *** [makefile:41: Lab_2.elf] Error 1
+03:57:25 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+../src/Lab_2.c: In function 'main':
+../src/Lab_2.c:14:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1100";
+              ^
+../src/Lab_2.c:15:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:16:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:19:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1110";
+              ^
+../src/Lab_2.c:20:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:21:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:24:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1111";
+              ^
+../src/Lab_2.c:25:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:26:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:30:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0100";
+              ^
+../src/Lab_2.c:31:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:32:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:35:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0101";
+              ^
+../src/Lab_2.c:36:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:37:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:40:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0110";
+              ^
+../src/Lab_2.c:41:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:42:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:45:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0111";
+              ^
+../src/Lab_2.c:46:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:47:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:50:12: error: 'ALU_Comp' undeclared (first use in this function); did you mean 'ALUOp'?
+         -- ALU_Comp
+            ^~~~~~~~
+            ALUOp
+../src/Lab_2.c:50:12: note: each undeclared identifier is reported only once for each function it appears in
+../src/Lab_2.c:6:15: error: expected ';' before 'regmap'
+ #define ALUOp regmap[4]
+               ^
+../src/Lab_2.c:51:9: note: in expansion of macro 'ALUOp'
+         ALUOp="1010";
+         ^~~~~
+../src/Lab_2.c:54:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1011";
+              ^
+../src/Lab_2.c:57:11: error: 'ALU_Logical' undeclared (first use in this function)
+         --ALU_Logical
+           ^~~~~~~~~~~
+../src/Lab_2.c:6:15: error: expected ';' before 'regmap'
+ #define ALUOp regmap[4]
+               ^
+../src/Lab_2.c:58:9: note: in expansion of macro 'ALUOp'
+         ALUOp="0000";
+         ^~~~~
+../src/Lab_2.c:59:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:60:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:63:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0001";
+              ^
+../src/Lab_2.c:64:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:65:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:68:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0010";
+              ^
+../src/Lab_2.c:69:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:70:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:73:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0011";
+              ^
+../src/Lab_2.c:74:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:75:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+make: *** [src/subdir.mk:23: src/Lab_2.o] Error 1
+03:57:56 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+../src/Lab_2.c: In function 'main':
+../src/Lab_2.c:14:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1100";
+              ^
+../src/Lab_2.c:15:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:16:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:19:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1110";
+              ^
+../src/Lab_2.c:20:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:21:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:24:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1111";
+              ^
+../src/Lab_2.c:25:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:26:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:30:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0100";
+              ^
+../src/Lab_2.c:31:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:32:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:35:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0101";
+              ^
+../src/Lab_2.c:36:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:37:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:40:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0110";
+              ^
+../src/Lab_2.c:41:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:42:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:45:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0111";
+              ^
+../src/Lab_2.c:46:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:47:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:51:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1010";
+              ^
+../src/Lab_2.c:54:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1011";
+              ^
+../src/Lab_2.c:58:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0000";
+              ^
+../src/Lab_2.c:59:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:60:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:63:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0001";
+              ^
+../src/Lab_2.c:64:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:65:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:68:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0010";
+              ^
+../src/Lab_2.c:69:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:70:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:73:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0011";
+              ^
+../src/Lab_2.c:74:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:75:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab_2.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab_2.elf  |tee "Lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71856	   2580	  23328	  97764	  17de4	Lab_2.elf
+Finished building: Lab_2.elf.size
+ 
+03:58:23 **** Incremental Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+03:58:49 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+../src/Lab_2.c: In function 'main':
+../src/Lab_2.c:15:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1100";
+              ^
+../src/Lab_2.c:16:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:17:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:20:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1110";
+              ^
+../src/Lab_2.c:21:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:22:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:25:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1111";
+              ^
+../src/Lab_2.c:26:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:27:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:31:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0100";
+              ^
+../src/Lab_2.c:32:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:33:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:36:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0101";
+              ^
+../src/Lab_2.c:37:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:38:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:41:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0110";
+              ^
+../src/Lab_2.c:42:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:43:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:46:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0111";
+              ^
+../src/Lab_2.c:47:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:48:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:52:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1010";
+              ^
+../src/Lab_2.c:55:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1011";
+              ^
+../src/Lab_2.c:59:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0000";
+              ^
+../src/Lab_2.c:60:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:61:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:64:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0001";
+              ^
+../src/Lab_2.c:65:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:66:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:69:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0010";
+              ^
+../src/Lab_2.c:70:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:71:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:74:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0011";
+              ^
+../src/Lab_2.c:75:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:76:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab_2.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab_2.elf  |tee "Lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71864	   2580	  23328	  97772	  17dec	Lab_2.elf
+Finished building: Lab_2.elf.size
+ 
+03:59:06 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+../src/Lab_2.c: In function 'main':
+../src/Lab_2.c:15:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1100";
+              ^
+../src/Lab_2.c:16:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:17:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:20:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1110";
+              ^
+../src/Lab_2.c:21:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:22:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:25:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1111";
+              ^
+../src/Lab_2.c:26:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:27:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:31:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0100";
+              ^
+../src/Lab_2.c:32:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:33:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:36:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0101";
+              ^
+../src/Lab_2.c:37:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:38:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:41:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0110";
+              ^
+../src/Lab_2.c:42:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:43:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:46:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0111";
+              ^
+../src/Lab_2.c:47:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:48:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:52:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1010";
+              ^
+../src/Lab_2.c:55:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1011";
+              ^
+../src/Lab_2.c:59:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0000";
+              ^
+../src/Lab_2.c:60:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:61:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:64:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0001";
+              ^
+../src/Lab_2.c:65:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:66:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:69:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0010";
+              ^
+../src/Lab_2.c:70:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:71:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:74:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0011";
+              ^
+../src/Lab_2.c:75:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:76:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab_2.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab_2.elf  |tee "Lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71888	   2580	  23328	  97796	  17e04	Lab_2.elf
+Finished building: Lab_2.elf.size
+ 
+03:59:22 **** Incremental Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+04:00:54 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+../src/Lab_2.c: In function 'main':
+../src/Lab_2.c:15:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1100";
+              ^
+../src/Lab_2.c:16:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:17:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:20:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1110";
+              ^
+../src/Lab_2.c:21:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:22:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:25:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1111";
+              ^
+../src/Lab_2.c:26:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:27:15: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         SHAMT = "00001";
+               ^
+../src/Lab_2.c:31:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0100";
+              ^
+../src/Lab_2.c:32:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:33:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:36:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0101";
+              ^
+../src/Lab_2.c:37:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:38:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:41:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0110";
+              ^
+../src/Lab_2.c:42:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:43:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x00000010";
+           ^
+../src/Lab_2.c:46:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0111";
+              ^
+../src/Lab_2.c:47:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:48:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0xFFFFFFF0";
+           ^
+../src/Lab_2.c:52:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1010";
+              ^
+../src/Lab_2.c:55:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="1011";
+              ^
+../src/Lab_2.c:59:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0000";
+              ^
+../src/Lab_2.c:60:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:61:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:64:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0001";
+              ^
+../src/Lab_2.c:65:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:66:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:69:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0010";
+              ^
+../src/Lab_2.c:70:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:71:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+../src/Lab_2.c:74:14: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         ALUOp="0011";
+              ^
+../src/Lab_2.c:75:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         A = "0x00000010";
+           ^
+../src/Lab_2.c:76:11: warning: assignment makes integer from pointer without a cast [-Wint-conversion]
+         B = "0x11111101";
+           ^
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab_2.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab_2.elf  |tee "Lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71992	   2580	  23328	  97900	  17e6c	Lab_2.elf
+Finished building: Lab_2.elf.size
+ 
+04:05:20 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+../src/Lab_2.c: In function 'main':
+../src/Lab_2.c:15:9: error: 'ALUOP' undeclared (first use in this function); did you mean 'ALUOp'?
+         ALUOP=0b1100;
+         ^~~~~
+         ALUOp
+../src/Lab_2.c:15:9: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/subdir.mk:23: src/Lab_2.o] Error 1
+04:06:10 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab_2.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab_2.elf  |tee "Lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71712	   2580	  23328	  97620	  17d54	Lab_2.elf
+Finished building: Lab_2.elf.size
+ 
+04:07:04 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab_2.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab_2.elf  |tee "Lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71712	   2580	  23328	  97620	  17d54	Lab_2.elf
+Finished building: Lab_2.elf.size
+ 
+04:07:22 **** Incremental Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.
+04:07:58 **** Auto Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+Building file: ../src/Lab_2.c
+Invoking: ARM v7 gcc compiler
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/Lab_2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../Lab_2_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/Lab_2.d" -MT"src/Lab_2.o" -o "src/Lab_2.o" "../src/Lab_2.c"
+Finished building: ../src/Lab_2.c
+ 
+Building target: Lab_2.elf
+Invoking: ARM v7 gcc linker
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../Lab_2_bsp/ps7_cortexa9_0/lib -o "Lab_2.elf" ./src/Lab_2.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: Lab_2.elf
+ 
+Invoking: ARM v7 Print Size
+arm-none-eabi-size Lab_2.elf  |tee "Lab_2.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  71892	   2580	  23328	  97800	  17e08	Lab_2.elf
+Finished building: Lab_2.elf.size
+ 
+04:08:22 **** Incremental Build of configuration Debug for project Lab_2 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+ 
+make: Nothing to be done for 'main-build'.

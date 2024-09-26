@@ -3,64 +3,69 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="ALU_Comp_tb_behav.wdb" id="1">
+      <db_ref path="ALU_behav.wdb" id="1">
          <top_modules>
-            <top_module name="ALU_Comp_tb" />
+            <top_module name="ALU" />
+            <top_module name="glbl" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="1053293939fs"></ZoomEndTime>
-      <Cursor1Time time="91848000fs"></Cursor1Time>
+      <ZoomStartTime time="133883334fs"></ZoomStartTime>
+      <ZoomEndTime time="152483335fs"></ZoomEndTime>
+      <Cursor1Time time="140000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="155"></NameColumnWidth>
-      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="11" />
-   <wvobject type="logic" fp_name="/ALU_Comp_tb/A_31">
-      <obj_property name="ElementShortName">A_31</obj_property>
-      <obj_property name="ObjectShortName">A_31</obj_property>
+   <WVObjectSize size="12" />
+   <wvobject type="array" fp_name="/ALU/ShiftR">
+      <obj_property name="ElementShortName">ShiftR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ShiftR[31:0]</obj_property>
    </wvobject>
-   <wvobject type="logic" fp_name="/ALU_Comp_tb/B_31">
-      <obj_property name="ElementShortName">B_31</obj_property>
-      <obj_property name="ObjectShortName">B_31</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/ALU_Comp_tb/S_31">
-      <obj_property name="ElementShortName">S_31</obj_property>
-      <obj_property name="ObjectShortName">S_31</obj_property>
-   </wvobject>
-   <wvobject type="logic" fp_name="/ALU_Comp_tb/CO">
-      <obj_property name="ElementShortName">CO</obj_property>
-      <obj_property name="ObjectShortName">CO</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/ALU_Comp_tb/ALUOp">
-      <obj_property name="ElementShortName">ALUOp[1:0]</obj_property>
-      <obj_property name="ObjectShortName">ALUOp[1:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/ALU_Comp_tb/R">
-      <obj_property name="ElementShortName">R[31:0]</obj_property>
-      <obj_property name="ObjectShortName">R[31:0]</obj_property>
-   </wvobject>
-   <wvobject type="array" fp_name="/ALU_Comp_tb/A">
+   <wvobject type="array" fp_name="/ALU/A">
       <obj_property name="ElementShortName">A[31:0]</obj_property>
       <obj_property name="ObjectShortName">A[31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/ALU_Comp_tb/R">
+   <wvobject type="array" fp_name="/ALU/ArithR">
+      <obj_property name="ElementShortName">ArithR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ArithR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU/R">
       <obj_property name="ElementShortName">R[31:0]</obj_property>
       <obj_property name="ObjectShortName">R[31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/ALU_Comp_tb/B">
+   <wvobject type="array" fp_name="/ALU/ALUOp">
+      <obj_property name="ElementShortName">ALUOp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUOp[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU/SHAMT">
+      <obj_property name="ElementShortName">SHAMT[4:0]</obj_property>
+      <obj_property name="ObjectShortName">SHAMT[4:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALU/Carryout">
+      <obj_property name="ElementShortName">Carryout</obj_property>
+      <obj_property name="ObjectShortName">Carryout</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/ALU/B">
       <obj_property name="ElementShortName">B[31:0]</obj_property>
       <obj_property name="ObjectShortName">B[31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/ALU_Comp_tb/S">
-      <obj_property name="ElementShortName">S[31:0]</obj_property>
-      <obj_property name="ObjectShortName">S[31:0]</obj_property>
+   <wvobject type="array" fp_name="/ALU/LogicalR">
+      <obj_property name="ElementShortName">LogicalR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">LogicalR[31:0]</obj_property>
    </wvobject>
-   <wvobject type="array" fp_name="/ALU_Comp_tb/temp">
-      <obj_property name="ElementShortName">temp[32:0]</obj_property>
-      <obj_property name="ObjectShortName">temp[32:0]</obj_property>
+   <wvobject type="array" fp_name="/ALU/CompR">
+      <obj_property name="ElementShortName">CompR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">CompR[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALU/Zero">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/ALU/Overflow">
+      <obj_property name="ElementShortName">Overflow</obj_property>
+      <obj_property name="ObjectShortName">Overflow</obj_property>
    </wvobject>
 </wave_config>

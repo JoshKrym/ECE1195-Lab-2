@@ -1,6 +1,6 @@
 Vivado Simulator 2018.3
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: /home/josh/packages/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 40f7eae7d8d34ef7804d1153ba012742 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L secureip --snapshot ALU_Comp_tb_behav xil_defaultlib.ALU_Comp_tb -log elaborate.log 
+Running: /home/josh/packages/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 40f7eae7d8d34ef7804d1153ba012742 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot ALU_behav xil_defaultlib.ALU xil_defaultlib.glbl -log elaborate.log 
 Using 8 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -11,6 +11,12 @@ Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
 Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ALU_Logical [alu_logical_default]
+Compiling architecture behavioral of entity xil_defaultlib.ALU_Shift [alu_shift_default]
 Compiling architecture behavioral of entity xil_defaultlib.ALU_Comp [alu_comp_default]
-Compiling architecture sim of entity xil_defaultlib.alu_comp_tb
-Built simulation snapshot ALU_Comp_tb_behav
+Compiling architecture struct of entity xil_defaultlib.Arith_Unit [arith_unit_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu
+Built simulation snapshot ALU_behav

@@ -1,0 +1,77 @@
+#include <stdio.h>
+#define A regmap[0]
+#define B regmap[1]
+#define R regmap[2]
+#define SHAMT regmap[3]
+#define ALUOp regmap[4]
+#define Overflow regmap[5]
+#define Zero regmap[6]
+
+int main(void)
+{
+    uint32_t *regmap = (uint32_t *) 0x70000000;
+    //shift
+        ALUOp="1100";
+        A = "0x00000010";
+        SHAMT = "00001";
+        printf((R=="0x00000020") ? "" : "Shift Left failed");
+
+        ALUOp="1110";
+        A = "0x00000010";
+        SHAMT = "00001";
+        printf((R=="0x00000008") ? "" : "Logical Shift Right failed");
+
+        ALUOp="1111";
+        A = "0xFFFFFFF0";
+        SHAMT = "00001";
+        printf((R=="0xFFFFFFF8") ? "" : "Arithmetic Shift failed");
+
+        //ALU_Arith
+        ALUOp="0100";
+        A = "0x00000010";
+        B = "0x00000010";
+        printf((R=="0x00000020") ? "" : "Unsigned add failed");
+
+        ALUOp="0101";
+        A = "0xFFFFFFF0";
+        B = "0xFFFFFFF0";
+        printf((R=="0xFFFFFFE0") ? "" : "Signed add failed");
+
+        ALUOp="0110";
+        A = "0x00000010";
+        B = "0x00000010";
+        printf((R=="0x00000000") ? "" : "Unsigned Subtract failed");
+
+        ALUOp="0111";
+        A = "0xFFFFFFF0";
+        B = "0xFFFFFFF0";
+        printf((R=="0x00000000") ? "" : "Signed Subtract failed");
+
+        -- ALU_Comp
+        ALUOp="1010";
+        assert (Zero='1') ? "" : "SLTU failed";
+
+        ALUOp="1011";
+        assert (Zero='1') ? "" : "SLT failed";
+
+        --ALU_Logical
+        ALUOp="0000";
+        A = "0x00000010";
+        B = "0x11111101";
+        printf((R=="0x00000000") ? "" : "AND failed");
+
+        ALUOp="0001";
+        A = "0x00000010";
+        B = "0x11111101";
+        printf((R=="0x11111111") ? "" : "OR failed");
+
+        ALUOp="0010";
+        A = "0x00000010";
+        B = "0x11111101";
+        printf((R=="0x11111111") ? "" : "XOR failed");
+
+        ALUOp="0011";
+        A = "0x00000010";
+        B = "0x11111101";
+        printf((R=="0xeeeeeeee") ? "" : "NOR failed");
+}

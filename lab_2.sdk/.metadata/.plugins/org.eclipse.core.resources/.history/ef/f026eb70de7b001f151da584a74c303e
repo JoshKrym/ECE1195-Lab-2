@@ -1,0 +1,79 @@
+#include <stdio.h>
+#define A regmap[0]
+#define B regmap[1]
+#define R regmap[2]
+#define SHAMT regmap[3]
+#define ALUOp regmap[4]
+#define Overflow regmap[5]
+#define Zero regmap[6]
+
+int main(void)
+{
+	printf("Hello World");
+    uint32_t *regmap = (uint32_t *) 0x70000000;
+    //shift
+        ALUOp=0b1100;
+        A = 0x00000010;
+        SHAMT = 0b00001;
+        printf((R==0x00000020) ? "" : "Shift Left failed\n");
+
+        ALUOp=0b1110;
+        A = 0x00000010;
+        SHAMT = 0b00001;
+        printf((R==0x00000008) ? "" : "Logical Shift Right failed\n");
+
+        ALUOp=0b1111;
+        A = 0xFFFFFFF0;
+        SHAMT = 0b00001;
+        printf((R==0xFFFFFFF8) ? "" : "Arithmetic Shift failed\n");
+
+        //ALU_Arith
+        ALUOp=0b0100;
+        A = 0x00000010;
+        B = 0x00000010;
+        printf((R==0x00000020) ? "" : "Unsigned add failed\n");
+
+        ALUOp=0b0101;
+        A = 0xFFFFFFF0;
+        B = 0xFFFFFFF0;
+        printf((R==0xFFFFFFE0) ? "" : "Signed add failed\n");
+
+        ALUOp=0b0110;
+        A = 0x00000010;
+        B = 0x00000010;
+        printf((R==0x00000000) ? "" : "Unsigned Subtract failed\n");
+
+        ALUOp=0b0111;
+        A = 0xFFFFFFF0;
+        B = 0xFFFFFFF0;
+        printf((R==0x00000000) ? "" : "Signed Subtract failed\n");
+
+        //ALU_Comp
+        ALUOp=0b1010;
+        printf((Zero==1) ? "" : "SLTU failed\n");
+
+        ALUOp=0b1011;
+        printf((Zero==1) ? "" : "SLT failed\n");
+
+        //ALU_Logical
+        ALUOp=0b0000;
+        A = 0x00000010;
+        B = 0x11111101;
+        printf((R==0x00000000) ? "" : "AND failed\n");
+
+        ALUOp=0b0001;
+        A = 0x00000010;
+        B = 0x11111101;
+        printf((R==0x11111111) ? "" : "OR failed\n");
+
+        ALUOp=0b0010;
+        A = 0x00000010;
+        B = 0x11111101;
+        printf((R==0x11111111) ? "" : "XOR failed\n");
+
+        ALUOp=0b0011;
+        A = 0x00000010;
+        B = 0x11111101;
+        printf((R==0xeeeeeeee) ? "" : "NOR failed\n");
+    printf("All tests have passed");
+}
